@@ -1,0 +1,414 @@
+/* CSS files add styling rules to your content */
+
+h1 {
+    text-align: center;
+
+  }
+
+
+
+button {
+
+background-color: #EFE2D3;
+  font-family: Minion Variable Concept;
+  font-size: 20px;
+  font-colour: #FFFFF;
+  
+max-width: 50%;
+margin: 10px;
+padding: 15px;
+
+margin-top: 100px;
+
+display: block-inline;
+flex-basis: 15%;
+margin: 5px;
+  
+
+}
+
+a {
+  color: #111111;
+  text-decoration: none;
+  
+}
+
+section {
+
+display: flex;
+justify-content: space-evenly;
+flex-direction: ;
+align-items: center;
+
+}
+      
+body {
+  background-color: #F9F7F4;
+  font-family: Minion Variable Concept;
+  font-color: #111111;
+  
+  margin-top: 100 px;
+}
+
+ul1 {
+
+list-style: none;
+padding: 0;
+display: flex;
+justify-content: space-evenly;
+
+}
+
+h1 {
+  font-style: Minion Variable Concept;
+  color: #111111;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-right: 300px;
+  margin-left: 300px;
+  
+}
+
+
+h2 {
+  margin-right: 300px;
+  margin-left: 300px;
+  
+  margin-top: 200px;
+  
+}
+
+h4 {
+  font-style: Minion Variable Concept;
+  color: #11111;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-shadow: ;
+  margin-right: 300px;
+  margin-left: 300px;
+  
+}
+
+
+p {
+  font-family: Minion Variable Concept;
+  font-color: #111111;
+  line-height: 25px;
+  
+  margin-right: 300px;
+  margin-left: 300px;
+  
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+}
+
+p2 {
+  
+  font-family: Minion Variable Concept;
+  font-color: #111111;
+  line-height: 25px;
+  
+  margin-right: 300px;
+  margin-left: 300px;
+  
+  margin-top: 300px;
+  margin-bottom: 300px;
+  
+  
+}
+
+p3 {
+  font-family: Minion Variable Concept;
+  font-color: #111111;
+  line-height: 25px;
+  font-size: 20px;
+  
+  margin-left: 200px;
+  margin-right: 200px;
+    
+}
+
+
+
+a {
+  
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  margin-top: 50px;
+  margin-bottom: 100px;
+  
+  width: 50%;
+}
+
+  <!------BREATHING.EX----->
+
+.* {
+background: #053C5E;
+}
+
+.orb {
+  height: 100px;
+  width: 100px;
+  border-radius: 200px;
+  background: #1F7A8C;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.orb_1 {
+  animation-name:orb_1;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count:infinite;
+	animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+@keyframes orb_1 {
+  from { transform: scale(1); background: #E5502E;}
+	   to { transform: scale(3); background: E5AB70;}
+}
+
+<!------BREATHING-EX----->
+
+
+<!---------------------------SLIDE-SHOW-BEGINS----------------------------------->
+
+ /* Slideshow container */
+.slideshow-container {
+  position: absolute;
+  background: #FFCC99;
+  border-radius: 5px 5px 5px 5px;
+  
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 20px;
+  text-align: center;
+  
+  margin-left: 200px;
+  margin-right: 200px;
+  
+  ont-family: Minion Variable Concept;
+  ont-color: #111111;
+  line-height: 25px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #E5AB70;
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #E5AB70;
+  border-radius: 0px 0px 0px 0px;
+  
+  margin-left: 200px;
+  margin-right: 200px;
+  
+  margin-bottom: 100px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  margin: 0 2px;
+  background-color: #FAFAFA;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #005960;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+
+<!------------------SLIDE-SHOW-END---------------------------->
+
+
+<!---TO-DO-LIST-BEGINS-->
+
+/* Include the padding and border in an element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* Remove margins and padding from the list */
+ul {
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+/* Style the list items */
+ul li {
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  
+
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  background: #E5AB70;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  background-color: #005960;
+  color: white;
+}
+
+/* Style the header */
+.header {
+  background-color: #E5AB70;
+  padding: 30px 40px;
+  color: #111111;
+  text-align: center;
+  border-radius: 0px;
+  
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/* Clear floats after the header */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the input */
+input {
+  margin: 3;
+  border: none;
+  border-radius: 20px 1px 1px 20px;
+  height: 100%;
+  width: 50%;
+  padding: 10px;
+  float: center;
+  font-size: 16px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+  
+  padding: 10px;
+  width: 50%;
+  background: #005960;
+  color: #FAFAFA;
+  float: center;
+  text-align: center;
+  font-size: 19px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 1px 20px 20px 1px;
+}
+
+.addBtn:hover {
+  background-color: #EFE2D3;
+}
+
+  <!---TO-DO-LIST-END-->
+
+
+  <!---FOOTER--->
+
+.footer {
+   position: absolute;
+   left: 0;
+   bottom: 1;
+   width: 100%;
+   background-color: #005960;
+   color: white;
+   text-align: center;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.footer {
+   position: absolute;
+   left: 0;
+   bottom: 1;
+   width: 100%;
+   background-color: #005960;
+   color: white;
+   text-align: center;
+  border-radius: 20px 20px 0px 0px;
+}
+
+
+
+
+
+
+
